@@ -1,0 +1,141 @@
+body {
+  height: 150px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: grey;
+  height: 100%;
+}
+
+/* .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+} */
+
+.nav-links a {
+  color: #ffffff;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #e0e0e0;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    background-color: rgb(91, 91, 91);
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    /* padding-right: 100px; */
+    text-align: center;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding-right: 130px;
+    font-size: 1rem;
+  }
+}
+/* mobile */
+@media (min-width: 600px) {
+  .navbar {
+    background-color: rgb(91, 91, 91);
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    /* padding-right: 140px; */
+    text-align: center;
+  }
+  .nav-links {
+    text-align: center;
+    /* padding-right: 160px; */
+    font-size: 1rem;
+  }
+
+}
+/* tablet */
+@media (min-width: 760px) {
+  .navbar{
+    background-color: rgb(91, 91, 91);
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+  }
+  .logo{
+    padding-left: 40px;
+  }
+  .nav-links {
+    font-size: 1rem;
+    padding-right: 100px;
+  }
+
+}
+/* laptop */
+@media (min-width: 992px) {
+  .navbar{
+    background-color: rgb(91, 91, 91);
+    flex-direction: row;
+    width: 100%;
+    
+    padding-top: 10px;
+    
+  }
+  .logo{
+    padding-left: 200px;
+  }
+  .nav-links {
+    font-size: 1rem;
+    padding-right: 150px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .navbar{
+    background-color: rgb(91, 91, 91);
+    flex-direction: row;
+    width: 100%;
+    
+    padding-top: 10px;
+    
+  }
+  .logo{
+    padding-left: 200px;
+  }
+  .nav-links {
+    font-size: 1rem;
+    padding-right: 100px;
+  }
+  
+
+}
+
+
+

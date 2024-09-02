@@ -1,0 +1,22 @@
+<div class="cat">
+  <div class="carousel-container">
+    <div class="test">
+      <p>Testimonial</p>
+    </div>
+    <div class="carousel" *ngFor="let slide of slides; let i = index" [ngClass]="{'active': i === currentIndex}">
+      <p class="quote">{{ slide.quote }}</p>
+      <img [src]="slide.profileImage" alt="profile image" class="profile-image">
+      <p class="author">{{ slide.author }}, {{ slide.location }}</p>
+    </div>
+  
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+  </div>
+  <div class="donate-section">
+    <p class="donate-message">Donate now to help us in our noble cause.</p>
+    <button class="donate-button" (click)="donate()">Donate Now</button>
+    
+  </div>
+</div>
+
+  
