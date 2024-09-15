@@ -5,7 +5,7 @@
 
 **Navbar Component:**
 
-◾ A navigation bar to allow users to easily switch between pages such as Home, About, Contact, and Donate.
+◾ A navigation bar to allow users to easily switch between pages such as Home, About, Contact, and Donate.<br>
 ◾ The navbar is styled to maintain a sleek look while keeping the structure of the content intact.
 
 **Home Section:**
@@ -31,9 +31,9 @@
 
 **Contact Form:**
 
-◾ A dynamic contact form is designed using Angular's form controls to allow users to send queries or messages. 
-◾ The form captures details like name, email, phone number, and message.
-◾ When the submit button is clicked, the data is either displayed on a local JSON server
+◾ A dynamic contact form is designed using Angular's form controls to allow users to send queries or messages. <br>
+◾ The form captures details like name, email, phone number, and message.<br>
+◾ When the submit button is clicked, the data is either displayed on a local JSON server<br>
 
 ![Contact_page](https://github.com/user-attachments/assets/7c650fb2-86e5-4b35-b59a-7ac679d03479)
 ####
