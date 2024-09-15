@@ -1,27 +1,15 @@
 # UpliftNGO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+![home_page](https://github.com/user-attachments/assets/9354496f-fe27-4066-8218-ecde860ef436)
+#####
 
-## Development server
+![Donatenow_page](https://github.com/user-attachments/assets/112d25f7-a683-444a-b8d4-fec7cec18810)
+####
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+![Mission _page](https://github.com/user-attachments/assets/6f69d1a3-4732-459b-b242-0c8fe59f8782)
+####
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Contact_page](https://github.com/user-attachments/assets/7c650fb2-86e5-4b35-b59a-7ac679d03479)
+####
